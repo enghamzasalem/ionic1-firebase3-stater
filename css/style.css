@@ -1,0 +1,129 @@
+
+
+
+.lone .hero {
+    background-size: cover;
+    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+    color: #fff;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.lone .hero.no-header {
+    height: 244px;
+}
+.lone .hero > .content {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.lone .hero > .content > .avatar {
+    background-position: center;
+    background-size: cover;
+    border: solid 1px rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+    height: 88px;
+    left: auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 88px;
+}
+.lone .hero h1 .lone .hero h2, .lone .hero h3, .lone .hero h4, .lone .hero h5, .lone .hero h6 {
+    color: #fff;
+    margin: 0;
+}
+.lone .hero h4 {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 3px 0 16px;
+}
+.lone .hero h1 > a, .lone .hero h2 > a, .lone .hero h3 > a, .lone .hero h4 > a, .lone .hero h5 > a, .lone .hero h6 > a {
+    text-decoration: none;
+}
+.lone .hero + .button-bar {
+    border-radius: 0;
+    margin-top: 0;
+}
+.lone .hero + .button-bar > .button:first-child, .lone .hero + .button-bar > .button:last-child {
+    border-radius: 0;
+}
+.lone .hero .hero-icon {
+    color: #fff;
+    font-size: 96px;
+}
+.lone .hero .hero-icon + h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.15rem;
+}
+.lone .hero .button, .lone .hero .button.button-large, .lone .hero .button.button-flat {
+    margin: 0;
+}
+.lone .hero h1.title {
+    color: #fff;
+    font-size: 23px;
+    margin: 0;
+    text-align: left;
+    padding-left: 80px;
+    line-height: 59px;
+}
+
+
+.lone .hero {
+    -moz-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.lone .hero.slide-up {
+    height: 100%;
+    overflow: hidden;
+}
+.lone .hero.slide-up * {
+    opacity: 0;
+}
+.lone .hero + .mid-bar {
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 1s cubic-bezier(0.55, 0, 0.1, 1);
+    height: initial;
+    opacity: 1;
+}
+.lone .hero.slide-up + .mid-bar {
+    height: 100%;
+    opacity: 0.7;
+    -moz-transform: translate3d(100%, -240px, 0);
+    -o-transform: translate3d(100%, -240px, 0);
+    -webkit-transform: translate3d(100%, -240px, 0);
+    transform: translate3d(100%, -240px, 0);
+}
+.lone .hero > * {
+    -moz-transition: opacity 2.5s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: opacity 2.5s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition: opacity 2.5s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 2.5s cubic-bezier(0.55, 0, 0.1, 1);
+    opacity: 1;
+}
+.lone .hero .hero-icon {
+    box-shadow: 0px 0 2px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 65px;
+    height: 150px;
+    padding: 10px 30px;
+    line-height: 136px;
+    width: 150px;
+}
+
+
