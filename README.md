@@ -1,6 +1,13 @@
 # ionic1-firebase3-stater
+
+- Add Your Firbase 
 ```
-npm i 
-cd  []
-ionic serve
+ firebase.initializeApp({
+      apiKey:  
+    authDomain: 
+    databaseURL:  
+    storageBucket:  
+    messagingSenderId:  
+
+    });
 ```
