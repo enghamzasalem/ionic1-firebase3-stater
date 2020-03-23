@@ -23,11 +23,11 @@ angular.module('starter', ['ionic','firebase','starter.configs'])
     }
 
     firebase.initializeApp({
-      apiKey: "AIzaSyDaYSKqGVfWJVa2kP-l93HAYBf9qv9l1Vs",
-    authDomain: "tutrial-f8258.firebaseapp.com",
-    databaseURL: "https://tutrial-f8258.firebaseio.com",
-    storageBucket: "tutrial-f8258.appspot.com",
-    messagingSenderId: "197368857037"
+      apiKey:  
+    authDomain: 
+    databaseURL:  
+    storageBucket:  
+    messagingSenderId:  
 
     });
 
